@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card'
 import './List.css';
 
-export default function List(props) {
+function List(props) {
     return (
         <section className="List">
             <header className="List-header">
@@ -26,3 +26,5 @@ export default function List(props) {
         </section>
     )
 }
+
+export default List;
